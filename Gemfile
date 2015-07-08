@@ -3,6 +3,7 @@ ruby '2.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
+gem 'web-console'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -44,4 +45,5 @@ group :test, :development do
   gem "database_cleaner"
   gem "sqlite3"
   gem "pry"
+  gem "launchy"
 end
